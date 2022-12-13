@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    <context:component-scan base-package="com.mycompany.bluraystore.controller.file"/>
+    <context:component-scan base-package="com.mycompany.bluraystore.service.file"/>
+    <context:component-scan base-package="com.mycompany.bluraystore.repository.file"/>-->
+<!--    <context:annotation-config />
+    <context:property-placeholder location="classpath:application.properties"/>
+    &lt;!&ndash;
+    Quand tu utilises autowire byName
+    Spring passe par tes classes, regarde tes attributs et regarde si j'ai pas une référence à un objet du même nom
+    Dans InvoiceServicePrefix, spring va détecter l'attribut repository, et voir que j'ai un id repository qui fait
+    référence à l'instance de l'objet
+    InvoiceRepositoryMemory, il va injecter la dépendance dans l'attribut repository directement
+&ndash;&gt;
+    <bean class="com.mycompany.bluraystore.controller.file.MovieControllerWithText" />
+    <bean class="com.mycompany.bluraystore.service.file.MovieServiceWithText"/>
+    <bean class="com.mycompany.bluraystore.repository.file.MovieRepositoryWithText">
+        &lt;!&ndash;<property name="file" value="C:\\Exo_txt_spring\movies.txt"/>&ndash;&gt;
+    </bean>-->
+</beans>
